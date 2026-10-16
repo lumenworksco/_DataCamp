@@ -2,6 +2,10 @@
 
 → [data.braunf.com](https://data.braunf.com/)
 
+![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg) ![Hosted on GitHub Pages](https://img.shields.io/badge/hosted-GitHub%20Pages-222.svg)
+
+A static showcase of my verified DataCamp certifications, course statements of accomplishment, and bachelor specialization coursework.
+
 ## Certifications
 
 | # | Title | ID | Date |
@@ -49,6 +53,10 @@ DataCamp/
 ## Links
 
 [LinkedIn](https://www.linkedin.com/in/braunflorian25/) · [GitHub](https://github.com/lumenworksco) · [Hugging Face](https://huggingface.co/iPwnds) · [Lumen Studio](https://lumen.braunf.com) · [CalmCampus](https://cc.braunf.com)
+
+## License
+
+Released under the [MIT License](LICENSE).
 
 ---
 
