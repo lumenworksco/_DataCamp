@@ -179,6 +179,12 @@ h1 em {
 
 .cta svg { flex-shrink: 0; }
 
+.cta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
 /* Under construction card */
 .card.wip { opacity: 0.6; }
 

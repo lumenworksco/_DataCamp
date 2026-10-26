@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.5.0] — 2026-10
+### Added
+- Local PDF copy of every credential in `assets/certificates/`, with a "View PDF" button on each card
+- AI Fundamentals Track (DataCamp), certificate #956,877, completed Oct 2026 — new card on the courses page
+- Foundations page with the 10 courses from the AI Fundamentals and GitHub Foundations tracks
+### Changed
+- Linear Algebra for Data Science in R — issue date corrected to Sep 2026 (per the certificate PDF)
+- AI Fundamentals certification — removed the dead DataCamp link (404); the card now links to the PDF only
+- Home page counts updated: 25 credentials, 4 sections
+### Fixed
+- Changelog entries 1.0.0 and 1.2.0 had the Transformer Models with PyTorch and Intermediate Deep Learning with PyTorch credential IDs swapped
+
 ## [1.4.0] — 2026-10
 ### Added
 - Natural Language Processing (NLP) in Python (DataCamp)
@@ -21,7 +33,7 @@
 ## [1.2.0] — 2026-03
 ### Added
 - Intermediate Deep Learning with PyTorch (DataCamp)
-  - Credential: `1afc7147bdb538e2e138fff4587d37b1a72f3955`
+  - Credential: `d78aef5cd39de2975b3c8ae4f00e9b275a53b147`
 
 ## [1.1.0] — 2026-03
 ### Added
@@ -32,5 +44,5 @@
 ### Added
 - Initial release
 - Transformer Models with PyTorch (DataCamp)
-  - Credential: `d78aef5cd39de2975b3c8ae4f00e9b275a53b147`
+  - Credential: `1afc7147bdb538e2e138fff4587d37b1a72f3955`
 - OG image, favicon, README
