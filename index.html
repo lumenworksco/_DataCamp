@@ -34,7 +34,47 @@
   </div>
 </header>
 
-<div class="section-header">
+<div class="stats" role="group" aria-label="Credential totals">
+  <div class="stat"><span class="stat-num" data-count="25">25</span><span class="stat-label">Credentials</span></div>
+  <div class="stat"><span class="stat-num" data-count="5">5</span><span class="stat-label">Certifications</span></div>
+  <div class="stat"><span class="stat-num" data-count="2">2</span><span class="stat-label">Tracks completed</span></div>
+  <div class="stat"><span class="stat-num" data-count="20">20</span><span class="stat-label">Courses</span></div>
+</div>
+<section class="showcase" aria-labelledby="show-h">
+  <div class="showcase-head">
+    <h2 id="show-h">The five certifications</h2>
+    <a href="certifications.html">All five, with IDs and PDFs <span aria-hidden="true">&rarr;</span></a>
+  </div>
+  <div class="showcase-row">
+    <a class="showcase-item" href="certifications.html" style="--i:0">
+      <span class="showcase-frame"><img src="assets/certs/certification-data-engineer-DE0018248106652.webp" width="960" height="552" loading="eager" alt="Data Engineer certificate"></span>
+      <span class="showcase-name">Data Engineer</span>
+      <span class="showcase-date">Certified May 2026</span>
+    </a>
+    <a class="showcase-item" href="certifications.html" style="--i:1">
+      <span class="showcase-frame"><img src="assets/certs/certification-data-scientist-DS0028859688856.webp" width="960" height="552" loading="eager" alt="Data Scientist certificate"></span>
+      <span class="showcase-name">Data Scientist</span>
+      <span class="showcase-date">Certified May 2026</span>
+    </a>
+    <a class="showcase-item" href="certifications.html" style="--i:2">
+      <span class="showcase-frame"><img src="assets/certs/certification-associate-data-scientist-DSA0017638872370.webp" width="960" height="552" loading="eager" alt="Associate Data Scientist certificate"></span>
+      <span class="showcase-name">Associate Data Scientist</span>
+      <span class="showcase-date">Certified May 2026</span>
+    </a>
+    <a class="showcase-item" href="certifications.html" style="--i:3">
+      <span class="showcase-frame"><img src="assets/certs/certification-python-data-associate-PDA0018740159645.webp" width="960" height="552" loading="lazy" alt="Python Data Associate certificate"></span>
+      <span class="showcase-name">Python Data Associate</span>
+      <span class="showcase-date">Certified May 2026</span>
+    </a>
+    <a class="showcase-item" href="certifications.html" style="--i:4">
+      <span class="showcase-frame"><img src="assets/certs/certification-ai-fundamentals-AIF0021124919473.webp" width="960" height="552" loading="lazy" alt="AI Fundamentals certificate"></span>
+      <span class="showcase-name">AI Fundamentals</span>
+      <span class="showcase-date">Certified Oct 2025</span>
+    </a>
+  </div>
+</section>
+
+<div class="section-header" id="sections">
   <span>4 Sections</span>
   <span>Certifications, Courses, Foundations &amp; Specialization</span>
 </div>
@@ -119,6 +159,18 @@
 
 </div>
 
+<section class="cover" aria-labelledby="cover-h">
+  <div class="showcase-head"><h2 id="cover-h">What it covers</h2></div>
+  <div class="cover-grid">
+    <div class="cover-cell"><h3>Data engineering</h3><p>Pipelines, ETL, SQL and Python for working with data at scale.</p><div class="skills"><span class="skill-tag">Data Pipelines</span><span class="skill-tag">ETL</span><span class="skill-tag">SQL</span><span class="skill-tag">pandas</span></div></div>
+    <div class="cover-cell"><h3>Machine learning</h3><p>From scikit-learn models to deep learning in PyTorch.</p><div class="skills"><span class="skill-tag">Machine Learning</span><span class="skill-tag">Deep Learning</span><span class="skill-tag">PyTorch</span><span class="skill-tag">Statistics</span></div></div>
+    <div class="cover-cell"><h3>LLMs and generative AI</h3><p>How language models work and how to build with them.</p><div class="skills"><span class="skill-tag">Transformers</span><span class="skill-tag">LangChain</span><span class="skill-tag">Hugging Face</span><span class="skill-tag">Generative AI</span></div></div>
+    <div class="cover-cell"><h3>NLP</h3><p>Text processing and language modelling in Python.</p><div class="skills"><span class="skill-tag">NLP in Python</span><span class="skill-tag">Multi-modal models</span><span class="skill-tag">LLM concepts</span></div></div>
+    <div class="cover-cell"><h3>Git and GitHub</h3><p>Version control and collaboration, two full tracks.</p><div class="skills"><span class="skill-tag">Git</span><span class="skill-tag">GitHub</span><span class="skill-tag">Version Control</span></div></div>
+    <div class="cover-cell"><h3>R and visualisation</h3><p>Data visualisation and web apps, from a bachelor specialization.</p><div class="skills"><span class="skill-tag">R</span><span class="skill-tag">ggplot2</span><span class="skill-tag">Shiny</span><span class="skill-tag">Linear Algebra</span></div></div>
+  </div>
+</section>
+
 <div class="resource-bar">
   <a class="resource-bar-link" href="https://www.datacamp.com/pg/sql-query-builder" target="_blank" rel="noopener">
     Interactive SQL Cheatsheet
@@ -138,6 +190,7 @@
 </footer>
 
 <a class="back-pill" data-back href="https://braunf.com/">&larr; braunf.com</a>
+<script src="assets/js/site.js"></script>
 <script src="assets/js/back.js"></script>
 </body>
 </html>

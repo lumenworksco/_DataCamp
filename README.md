@@ -6,6 +6,15 @@
 
 A static showcase of my 25 verified DataCamp credentials: 5 certifications, 8 course and track credentials, 10 foundations courses, and 2 bachelor specialization courses. Every credential also links to a local PDF copy in `assets/certificates/`.
 
+## What the site does
+
+- A home page with animated totals, the five certifications shown as their real certificates, and what the credentials cover.
+- A preview of the actual certificate on every one of the 25 cards (rendered from the PDFs in `assets/certificates/` into `assets/certs/`), linking to the PDF.
+- A copy button on every credential ID, a cursor spotlight on cards and a gentle tilt on certificate previews. Reduced motion turns the movement off.
+- A "Back" button that returns to the braunf.com page the visitor came from.
+
+To regenerate the previews after adding a PDF, render page 1 of each file in `assets/certificates/` to a 960 px wide webp with the same base name in `assets/certs/`.
+
 ## Certifications
 
 | # | Title | ID | Date | PDF |
