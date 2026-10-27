@@ -370,3 +370,25 @@ a:focus-visible {
     transition-duration: 0.01ms !important;
   }
 }
+
+/* Back pill */
+.back-pill {
+  position: fixed;
+  left: 18px;
+  bottom: 18px;
+  z-index: 90;
+  padding: 10px 16px;
+  border: 1px solid #2a2a2a;
+  border-radius: 999px;
+  background: rgba(13, 13, 13, 0.82);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #cfcfcf;
+  text-decoration: none;
+  box-shadow: 0 8px 26px rgba(0, 0, 0, 0.5);
+  transition: color 0.2s, border-color 0.2s, transform 0.2s;
+}
+.back-pill:hover { color: var(--accent); border-color: var(--accent); transform: translateY(-1px); }
