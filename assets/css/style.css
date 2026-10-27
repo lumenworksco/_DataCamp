@@ -5,7 +5,7 @@
   --accent: #37de8a;
   --accent-dim: rgba(55,222,138,0.12);
   --text: #e8e8e8;
-  --muted: #555;
+  --muted: #8c8c8c;
   --card-bg: #111;
 }
 
@@ -352,4 +352,21 @@ footer a:hover { color: var(--accent); }
   .card { padding: 28px 24px; }
   footer { padding: 0 24px; }
   .resource-bar { padding: 16px 24px; }
+}
+
+/* Focus */
+a:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+.card.nav-tile:focus-visible { outline-offset: -2px; }
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }

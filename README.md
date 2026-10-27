@@ -70,7 +70,7 @@ DataCamp/
 
 ## Links
 
-[LinkedIn](https://www.linkedin.com/in/braunflorian25/) · [GitHub](https://github.com/lumenworksco) · [Hugging Face](https://huggingface.co/iPwnds) · [Lumen Studio](https://lumen.braunf.com) · [CalmCampus](https://cc.braunf.com)
+[LinkedIn](https://www.linkedin.com/in/braunflorian25/) · [GitHub](https://github.com/lumenworksco) · [Hugging Face](https://huggingface.co/iPwnds) · [Personal Projects](https://lumen.braunf.com) · [CalmCampus](https://cc.braunf.com)
 
 ## License
 
