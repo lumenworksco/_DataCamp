@@ -105,6 +105,16 @@
     }
     resetBtns.forEach(function (b) { if (b) b.addEventListener('click', reset); });
 
+    // "/" jumps to the search box, like on most sites
+    document.addEventListener('keydown', function (e) {
+        if (e.key !== '/' || e.metaKey || e.ctrlKey || e.altKey) return;
+        var tag = (document.activeElement && document.activeElement.tagName) || '';
+        if (tag === 'INPUT' || tag === 'TEXTAREA') return;
+        e.preventDefault();
+        q.focus();
+        q.select();
+    });
+
     readUrl();
     render();
 })();

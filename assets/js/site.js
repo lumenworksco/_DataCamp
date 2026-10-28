@@ -56,4 +56,14 @@
             try { navigator.clipboard.writeText(id).then(function () { done(true); }, function () { done(false); }); } catch (e) { done(false); }
         });
     });
+
+    // the year-in-order timeline reveals month by month
+    var months = document.querySelectorAll('.jm');
+    if (months.length && 'IntersectionObserver' in window && !reduce) {
+        months.forEach(function (m) { if (m.getBoundingClientRect().top > window.innerHeight * 0.9) m.classList.add('pre'); });
+        var mo = new IntersectionObserver(function (entries) {
+            entries.forEach(function (en) { if (en.isIntersecting) { en.target.classList.add('seen'); mo.unobserve(en.target); } });
+        }, { threshold: 0.2, rootMargin: '0px 0px -8% 0px' });
+        months.forEach(function (m) { mo.observe(m); });
+    }
 })();

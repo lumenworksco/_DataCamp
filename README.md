@@ -14,9 +14,12 @@ A static showcase of my 25 verified DataCamp credentials: 5 certifications, 8 co
 - **all.html**: every credential on one page with search, filters for type, year and skill, a chart of when each was earned (click a month to filter), and sorting. Filters live in the URL, so a filtered view can be shared as a link.
 - A verified badge on every card: "Verifiable on DataCamp" only when the credential has a DataCamp verification link (12 of 25), otherwise "PDF certificate on file".
 - Totals counted from the certificates themselves (dates and course lengths), such as 48 hours of courses.
+- A certificate viewer: click any preview to open the certificate large, browse the set with the arrow keys or by swiping, copy the ID, open the PDF or verify it on DataCamp. Without JavaScript (or with a modifier key) the preview is still a plain link to the PDF.
+- "The year, in order": a timeline from the first to the latest credential with a running total of course hours. Each month links to the filtered list. Press `/` on `all.html` to jump to search.
+- Smooth page-to-page transitions in browsers that support them.
 - A "Back" button that returns to the braunf.com page the visitor came from.
 
-To regenerate the previews after adding a PDF, render page 1 of each file in `assets/certificates/` to a 960 px wide webp with the same base name in `assets/certs/`.
+To regenerate the images after adding a PDF, render page 1 of each file in `assets/certificates/` to a 960 px wide webp in `assets/certs/` and a 1600 px wide one in `assets/certs/lg/` (same base name). `assets/js/creds.js` holds the title, date, ID and verification link the viewer shows for each file.
 
 ## Certifications
 
