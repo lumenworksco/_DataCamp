@@ -670,3 +670,30 @@ body.lb-lock { overflow: hidden; }
 .jm.pre.seen { opacity: 1; transform: none; }
 @media (max-width: 640px) { .journey { padding: 44px 24px 10px; } .jm { padding-left: 40px; } .jm-run { margin-left: 0; width: 100%; } .jm-date { font-size: 1.3rem; } }
 @media (prefers-reduced-motion: reduce) { .jm, .jm.pre { opacity: 1; transform: none; transition: none; } }
+
+/* ── Skills network ── */
+.net { padding: 40px 0 10px; }
+.net .showcase-head { padding: 0 48px; }
+.net-hint { padding: 0 48px; max-width: 860px; font-size: 12px; line-height: 1.8; color: var(--muted); margin-bottom: 22px; }
+.net-wrap { position: relative; margin: 0 48px; border: 1px solid var(--border); background: var(--card-bg); overflow: hidden; }
+.net-wrap canvas { display: block; width: 100%; }
+.net-card { position: absolute; left: 14px; bottom: 14px; right: 14px; max-width: 460px; padding: 12px 14px; background: rgba(13,13,13,0.88); border: 1px solid var(--border); backdrop-filter: blur(6px); }
+.net-card-title { display: block; font-family: 'Fraunces', serif; font-size: 1.05rem; font-weight: 300; color: #fff; margin-bottom: 4px; }
+.net-card-sub { display: block; font-size: 11px; line-height: 1.7; color: var(--muted); }
+.net-list { margin: 22px 48px 0; font-size: 12px; color: var(--muted); }
+.net-list summary { cursor: pointer; color: var(--accent); padding: 6px 0; }
+.net-list ul { list-style: none; margin-top: 10px; display: grid; gap: 8px; }
+.net-list li strong { color: var(--text); font-weight: 500; }
+.net-list li span { display: block; line-height: 1.6; }
+@media (max-width: 720px) {
+  .net .showcase-head, .net-hint { padding: 0 24px; }
+  .net-wrap, .net-list { margin-left: 24px; margin-right: 24px; }
+}
+
+/* ── Home intro ── */
+.intro { padding: 44px 48px 8px; max-width: 880px; }
+.intro .label { margin-bottom: 14px; }
+.intro p:not(.label) { font-size: 13px; line-height: 1.9; color: #c9c9c9; margin-bottom: 16px; }
+.intro a { font-size: 12px; color: var(--accent); text-decoration: none; }
+.intro a:hover { text-decoration: underline; }
+@media (max-width: 720px) { .intro { padding: 36px 24px 4px; } }
